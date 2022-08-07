@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import HeaderNavi from './Components/HeaderNavi';
 
 function App() {
   return (
     <>
-    <h1>Testing Clean React Slate test 2</h1>
+    <HeaderNavi />
     </>
   );
 }
