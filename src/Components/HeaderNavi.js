@@ -1,10 +1,18 @@
 import React from "react";
-import { Nav, NavBar } from "react-bootstrap";
+import { Nav, Navbar, Container } from "react-bootstrap";
 
 const HeaderNavi = () => {
     return(
     <>
-        <h1>Testing Component Header Navi</h1>
+        <Navbar>
+            <Container>
+                <Nav.Link href="./">Home</Nav.Link>
+                <Nav.Link href="./Work">Work</Nav.Link>
+                <Nav.Link href="./About">About</Nav.Link>
+                <Nav.Link href="./Contact">Contact</Nav.Link>
+            </Container>
+        </Navbar>
+        
     </>
     )
 }
