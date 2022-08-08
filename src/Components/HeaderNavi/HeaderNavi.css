@@ -13,3 +13,9 @@ a{
 a:hover {
     color: #FF5DB2 !important;
 }
+#logo {
+    height: auto;
+    max-width: 250px;
+    display: block;
+    flex: auto;
+}

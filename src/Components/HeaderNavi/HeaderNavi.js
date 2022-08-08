@@ -1,10 +1,13 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import './HeaderNavi.css'
+import Logo from '../HeaderNavi/logoWhite.png'
 
 const HeaderNavi = () => {
     return(
     <>
+        <img id='logo' src={Logo} alt=''/>
+
         <Navbar>
             <Container className="navigation">
                 <Nav.Link href="./Work">Work</Nav.Link>

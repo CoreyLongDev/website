@@ -1,5 +1,6 @@
 body {
   color: red;
+  background-color: grey;
 }
 #theDoor {
   display: block;
