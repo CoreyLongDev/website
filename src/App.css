@@ -1,6 +1,8 @@
 body {
   color: red;
   background-color: grey;
+  margin: 0;
+  padding: 0;
 }
 #theDoor {
   display: block;
