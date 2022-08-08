@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import HeaderNavi from './Components/HeaderNavi';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HeaderNavi from './Components/HeaderNavi/HeaderNavi';
 import Home from './Pages/Home';
 import Work from './Pages/Work';
 import About from './Pages/About';
 import Contact from './Pages/Contact'
 import NotFoundPage from './Pages/NotFoundPage';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='*' element={<NotFoundPage />} />
         </Routes>
     </Router>
+    <Footer />
     </>
   );
 }
