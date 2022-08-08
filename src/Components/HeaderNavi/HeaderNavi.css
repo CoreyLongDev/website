@@ -1,3 +1,8 @@
+#header {
+    display: flex !important;
+    align-items: baseline !important;
+    gap: 75%;
+}
 #logoBox {
     float: left;
 }
@@ -6,20 +11,21 @@
     max-width: 250px;
 }
 .navigation {
-    text-align: right !important;
     box-shadow: none;
     float: right;
+    margin-top: -50%;
 }
 a{
     color: black !important;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
     margin: 1rem;
     }
 a:hover {
-    color: #FF5DB2 !important;
+    color: #A5BE00 !important;
 }
 .clear {
     clear: both;
+    padding-top: 2rem;
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import './HeaderNavi.css'
-import Logo from '../HeaderNavi/logoWhite.png'
+import Logo from '../HeaderNavi/logoGradient.png'
 
 const HeaderNavi = () => {
     return (
         <>
             <div id="header">
-                <img id='logo' src={Logo} alt='' />
+                <img id='logo' src={Logo} alt='Personel brand logo for software developer Corey Long.' />
 
                 <Navbar>
                     <Container className="navigation">
