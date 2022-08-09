@@ -1,12 +1,29 @@
 body {
-  color: red;
-  background-color: grey;
-  margin: 0;
-  padding: 0;
+  color: #064789;
+  background-color: #EBF2FA;
 }
 #theDoor {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+}
+#profilePic {
+  width: 30%;
+  display: block;
+  float: left;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.textContainer {
+  display: block;
+  float: right;
+  padding-right: 5rem;
+}
+#welcomeSign {
+  font-size: 96px;
+}
+#colorIt {
+  color: #A5BE00;
+  font-weight: 500;
 }

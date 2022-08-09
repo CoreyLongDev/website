@@ -1,9 +1,9 @@
 import React from "react";
 
-const Work = () => {
+const Web = () => {
     return(
     <h1>work Page Working</h1>
     )
 }
 
-export default Work
+export default Web
