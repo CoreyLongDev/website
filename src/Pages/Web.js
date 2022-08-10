@@ -9,6 +9,8 @@ function createCard(webData) {
             subTitle = {webData.subTitle}
             imgURL = {webData.imgURL}
             info = {webData.info}
+            githubLink = {webData.githubLink}
+            liveSite = {webData.liveSite}
         />
     )
 }

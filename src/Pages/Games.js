@@ -9,6 +9,8 @@ function createCard(gamesData) {
             subTitle = {gamesData.subTitle}
             imgURL = {gamesData.imgURL}
             infoTwo = {gamesData.infoTwo}
+            githubLink = {gamesData.githubLink}
+            liveSite = {gamesData.liveSite}
         />
     )
 }

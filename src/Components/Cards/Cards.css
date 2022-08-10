@@ -2,20 +2,27 @@
     padding-top: 25px;
 }
 .card {
-    border: 3px solid white;
-    border-radius: 5%;
+    /* border: 3px solid white;
+    border-radius: 5%; */
     max-width: 48%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    padding-left: 5rem;
 }
 img {
     padding-top: 20px;
     max-width: 95%;   
 }
+/* .card:hover > img {
+    border: 3px solid none;
+    border-radius: 25%;
+} */
 .cardText {
     text-align: center;
+    border-bottom: 3px solid black;
+    padding-bottom: 2rem;
 }
 #gameInfo {
     text-align: left;
