@@ -1,8 +1,23 @@
 import React from "react";
+import Cards from "../Components/Cards/Cards";
+import webData from "../Components/Cards/webData";
 
-const Web = () => {
-    return(
-    <h1>work Page Working</h1>
+function createCard(webData) {
+    return (
+        <Cards
+            name = {webData.name}
+            subTitle = {webData.subTitle}
+            imgURL = {webData.imgURL}
+            info = {webData.info}
+        />
+    )
+}
+
+function Web() {
+    return (
+        <>
+            {webData.map(createCard)}
+        </>
     )
 }
 
