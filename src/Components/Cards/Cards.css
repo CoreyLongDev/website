@@ -1,0 +1,10 @@
+.cardHolder {
+    max-width: 100px; 
+    max-height: auto;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+}
+.card {
+    max-width: 100px;
+}
