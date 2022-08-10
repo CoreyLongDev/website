@@ -3,12 +3,12 @@ import React from "react";
 const About = () => {
     return(
     <>
-    <h3>testing</h3>
-    <p>what it do baby boo</p>
+    <h3>header</h3>
+    <p>hey.. its me!</p>
     <br />
-    <p>ya boy aint a jew</p>
+    <p>fillerific</p>
     <br />
-    <p>wanna watch me take a poo</p>
+    <p>more and more filler</p>
     </>
     )
 }
