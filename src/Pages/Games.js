@@ -8,7 +8,7 @@ function createCard(gamesData) {
             name = {gamesData.name}
             subTitle = {gamesData.subTitle}
             imgURL = {gamesData.imgURL}
-            info = {gamesData.info}
+            infoTwo = {gamesData.infoTwo}
         />
     )
 }

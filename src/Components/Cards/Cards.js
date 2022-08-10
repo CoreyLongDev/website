@@ -1,22 +1,18 @@
 import React from "react";
-import { Card, Image } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import "./Cards.css"
 
 
 function Cards(props) {
     return (
         <div className="cardHolder">
             <Card className="card">
-                <Card.Img 
-                    src={props.imgURL}
-                    // style={{ maxWidth: "550px", maxHeight: "auto" }}
-                />
+                <Card.Img src={props.imgURL} />
                 <Card.Body>
-                    <Card.Title>{props.name}</Card.Title>
-                    <Card.Title>{props.subTitle}</Card.Title>
-                    <Card.Title>{props.info}</Card.Title>
-                    <Card.Text>
-                        pending paragraph
-                    </Card.Text>
+                    <Card.Title className="cardText">{props.name}</Card.Title>
+                    <Card.Text className="cardText">{props.subTitle}</Card.Text>
+                    <Card.Text className="cardText">{props.info}</Card.Text>
+                    <Card.Text id="gameInfo"> {props.infoTwo} </Card.Text>
                 </Card.Body>
             </Card>
 
