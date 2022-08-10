@@ -1,14 +1,15 @@
 import React from "react";
+import LockedDoor from '../Images/404.png'
+import '../App.css'
 
 const About = () => {
     return(
     <>
-    <h3>header</h3>
-    <p>hey.. its me!</p>
-    <br />
-    <p>fillerific</p>
-    <br />
-    <p>more and more filler</p>
+    <img src={LockedDoor} id="officePeek" />
+    <h3>Here We Go!</h3>
+    <div className="aboutParagraph">
+        <p>blah blah blah</p>
+    </div>
     </>
     )
 }
