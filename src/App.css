@@ -1,3 +1,6 @@
+/* Text for Contact Page */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
 body {
   color: #064789;
   background-color: #8cbdf4;
@@ -34,4 +37,9 @@ body {
 #colorIt {
   color: #738403;
   font-weight: 500;
+}
+#topMessage {
+  font-family: 'Rubik Marker Hatch', cursive;
+  text-align: center;
+  font-size: 32px;
 }

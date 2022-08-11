@@ -1,8 +1,12 @@
 import React from "react";
+import '../App.css'
+import { Form, Container } from "react-bootstrap";
 
 const Contact = () => {
     return(
-    <h1>contact Page Working</h1>
+        <>
+            <p id="topMessage">Let's get <strong>Connected</strong>!</p>
+        </>
     )
 }
 
