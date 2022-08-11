@@ -1,3 +1,6 @@
+/* Text for NavBar */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 #header {
     display: flex !important;
     align-items: baseline !important;
@@ -33,3 +36,6 @@ a:hover {
 /* .clear {
     clear: both;
 } */
+.navText {
+    font-family: 'Indie Flower', cursive;
+}

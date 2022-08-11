@@ -11,7 +11,7 @@ const HeaderNavi = () => {
                 <img id='logo' src={Logo} alt='Personel brand logo for software developer Corey Long.' />
                 </Nav.Link>
                 <Navbar>
-                    <Container className="navigation">
+                    <Container className="navigation, navText">
                         <Nav.Link href="./web">Web</Nav.Link>
                         <Nav.Link href="./games">Games</Nav.Link>
                         <Nav.Link href="./about">About</Nav.Link>
