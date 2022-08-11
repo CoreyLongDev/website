@@ -49,3 +49,8 @@ display: block;
 margin-left: 40%;
 margin-right: 60%;
 }
+.aboutParagraph {
+  text-align: left;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
