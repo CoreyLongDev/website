@@ -1,9 +1,56 @@
+/* Text for Contact Page */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
 body {
-  color: red;
+  color: #064789;
+  background-color: #8cbdf4;
 }
 #theDoor {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+}
+#officePeek {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-height: 15rem;
+  max-width: 60%;
+}
+#profilePic {
+  width: 30%;
+  display: block;
+  float: left;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.textContainer {
+  display: block;
+  float: right;
+  padding-right: 5rem;
+}
+#welcomeSign {
+  font-size: 96px;
+}
+#colorIt {
+  color: #738403;
+  font-weight: 500;
+}
+#topMessage {
+  font-family: 'Rubik Marker Hatch', cursive;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 2rem;
+}
+.contactContainer {
+display: block;
+margin-left: 40%;
+margin-right: 60%;
+}
+.aboutParagraph {
+  text-align: left;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }

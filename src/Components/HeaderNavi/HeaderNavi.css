@@ -1,0 +1,41 @@
+/* Text for NavBar */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+#header {
+    display: flex !important;
+    align-items: baseline !important;
+    gap: 75%;
+    width: fit-content;
+    border-bottom: 5px double black;
+    padding-top: -8rem;
+
+}
+#logoBox {
+    float: left;
+}
+#logo {
+    height: auto;
+    max-width: 250px;
+}
+.navigation {
+    box-shadow: none;
+    float: right;
+    margin-top: -50%;
+    border-bottom: 3px double black;
+}
+a {
+    color: black !important;
+    font-weight: 300;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 1rem;
+}
+a:hover {
+    color: #A5BE00 !important;
+}
+/* .clear {
+    clear: both;
+} */
+.navText {
+    font-family: 'Indie Flower', cursive;
+}
